@@ -1,0 +1,6 @@
+{
+  "name": "Atelier — Editorial Task Management & Multi-Device Sync",
+  "description": "An editorial luxury task management sanctuary with seamless real-time cross-device synchronization, Claude-inspired typography, and minimalist aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-claude-bg: #FAF9F5;
+  --color-claude-surface: #FFFFFF;
+  --color-claude-warm: #F4F2EB;
+  --color-claude-border: #E8E6DF;
+  --color-claude-text: #1A1915;
+  --color-claude-muted: #737168;
+  --color-claude-terracotta: #CC785C;
+  --color-claude-terracotta-hover: #B5654B;
+  --color-claude-dark: #181715;
+}
+
+:root {
+  font-family: var(--font-sans);
+  color-scheme: light;
+}
+
+/* Custom delicate editorial scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8D6CE;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B8B5AB;
+}
+
